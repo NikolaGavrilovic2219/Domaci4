@@ -1,0 +1,233 @@
+@boja1 : #E0E0E0;
+@boja2 : #101010;
+@boja3 : #000000;
+
+html
+{
+	height: 100%;
+}
+
+body
+{
+	margin: 0px;
+	padding: 0px;
+	background: @boja1 ;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 12pt;
+	font-weight: 300;
+	color: @boja3;
+}
+
+h1, h2
+{
+	margin: 0;
+	padding: 0;
+}
+
+p, ol, ul
+{
+	margin-top: 0;
+}
+
+ol, ul
+{
+	padding: 0;
+	list-style: none;
+}
+
+p
+{
+	line-height: 180%;
+}
+
+strong
+{
+}
+
+.container
+{
+	overflow: hidden;
+	margin: 0em auto;
+	width: 1000px;
+}
+
+	.image
+{
+	display: inline-block;
+}
+
+.image img
+{
+	display: block;
+	width: 100%;
+}
+
+.image-full
+{
+	display: block;
+	width: 100%;
+	margin: 0 0 2em 0;
+}
+
+.image-left
+{
+	float: left;
+	margin: 0 2em 2em 0;
+}
+
+.image-centered
+{
+	display: block;
+	margin: 0 0 2em 0;
+}
+
+.image-centered img
+{
+	margin: 0 auto;
+	width: auto;
+}
+
+
+	.boxA,  .boxB,  .boxC
+{
+	width: 300px;
+}
+
+.boxA,  .boxB
+{
+	float: left;
+	margin-right: 50px;
+}
+
+.boxC
+{
+	float: right;
+}
+
+#wrapper
+{
+	background: @boja1 ;
+}
+
+	#header-wrapper
+{
+	background: url(slike/baner.jpg) no-repeat center;
+	background-size: cover;
+	border-top: 30px solid;
+	color: @boja2;
+}
+
+#header
+{
+	position: relative;
+	padding: 5em 0em;
+}
+
+	#logo
+{
+}
+
+#logo h1
+{
+	position: absolute;
+	top: 0;
+	left: 0;
+	padding: 1em 1em;
+	background: 	#101010;
+	border-radius: 0px 0px 5px 5px;
+}
+
+#logo a
+{
+	text-decoration: none;
+	color: #FFF;
+}
+
+	#menu
+{
+	position: absolute;
+	top: 4em;
+	right: 0;
+}
+
+#menu ul
+{
+	display: inline-block;
+}
+
+#menu li
+{
+	display: block;
+	float: left;
+	text-align: center;
+}
+
+#menu li a, #menu li span
+{
+	padding: 1em 1.5em;
+	letter-spacing: 1px;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 0.90em;
+	font-weight: 600;
+	color: #101010;
+}
+
+#menu li:hover a, #menu li.active a, #menu li.active span
+{
+	background: #B8B8B8;
+	border-radius: 5px;
+}
+
+#menu .current_page_item a
+{
+}
+
+#menu .icon
+{
+}
+
+	#banner
+{
+	padding: 10em 0em;
+}
+
+#banner span
+{
+	display: block;
+	text-transform: uppercase;
+	text-align: right;
+	font-weight: 700;
+	font-size: 2.5em;
+	color: @boja2;
+}
+
+	.title
+{
+	margin-bottom: 3em;
+	text-transform: uppercase;
+}
+
+
+	#staff
+{
+	padding: 5em 0em;
+	text-align: center;
+}
+
+
+#welcome
+{
+	padding: 5em 0em 5em 0em;
+	border-top: 1px solid rgba(0,0,0,.1);
+	text-align: center;
+}
+
+
+ul.stil li
+{
+	border-top: 1px solid rgba(0,0,0,0.1);
+	line-height: 3em;
+}
+
+
